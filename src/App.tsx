@@ -1,20 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import { LaunchItem } from './components/LaunchItem';
-
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <title className="App-title"> next-launch </title>
         <LaunchItem 
           launchName='GLHF' 
-          launchDate='' 
-          rocketName='' 
-          launchProvider='' 
-          launchSite='' 
+          launchDate='07/04/1999' 
+          rocketName='Falcon 9' 
+          launchProvider='Space X' 
+          launchSite='Cape Canaveral' 
         />
-      </header>
     </div>
   );
 }
