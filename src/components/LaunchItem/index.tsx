@@ -1,5 +1,4 @@
 import "./style.css";
-import falcon9 from './falcon9.png';
 
 type LaunchItemProps = {
     launchName: string;
@@ -24,8 +23,9 @@ export const LaunchItem = (props: LaunchItemProps) => {
         </div>
         
         <div className="rocketimage">
-            <img src={falcon9} alt= "Falcon 9" className="falcon9"></img>
+            <p>
+            N/A
+            </p>
         </div>
-
     </div>
 };
