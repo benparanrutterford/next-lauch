@@ -25,7 +25,7 @@
 }
 
 .launchinfo {
-    display: inline-block;
+    display: inline-flex;
     text-align: left;
     max-width: 60%;
     padding: 0px;
