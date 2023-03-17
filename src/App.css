@@ -18,3 +18,10 @@
     color: rgb(0, 0, 0);
     padding-top: 15px;
 }
+
+.App-footer {
+  align-self: center;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

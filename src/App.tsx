@@ -1,17 +1,12 @@
 import './App.css';
-import { LaunchItem } from './components/LaunchItem';
+import { LaunchList } from './components/LaunchList';
 
 function App() {
   return (
     <div className="App">
       <title className="App-title"> next-launch </title>
-        <LaunchItem 
-          launchName='GLHF' 
-          launchDate='07/04/1999' 
-          rocketName='Falcon 9' 
-          launchProvider='Space X' 
-          launchSite='Cape Canaveral' 
-        />
+      <LaunchList></LaunchList>
+      <footer className="App-footer"> Data by RocketLaunch.Live </footer>
     </div>
   );
 }
