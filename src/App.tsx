@@ -1,28 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { LaunchList } from './components/LaunchList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          I cant code :(
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React ??? 
-        </a>
-      </header>
+      <title className="App-title"> next-launch </title>
+      <LaunchList></LaunchList>
+      <footer className="App-footer"> Data by RocketLaunch.Live </footer>
     </div>
   );
 }
-
-
 
 export default App;
